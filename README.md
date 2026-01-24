@@ -34,14 +34,4 @@ Welcome to the PEFT (Pretraining-Evaluation Fine-Tuning) project repository! Thi
 | **22. Evaluate a Hugging Face LLM with `mlflow.evaluate()`**                                         | This notebook provides a comprehensive guide on evaluating a Hugging Face Language Learning Model (LLM) using mlflow_evaluate.                                                                | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ashishpatel26/LLM-Finetuning/blob/main/22.Evaluate_a_Hugging_Face_LLM_with_mlflow_evaluate.ipynb)                  |
 | **23. Optimizing LLMs with Cache-Augmented-Generation**                                                | Explores techniques from the research paper Cache-Augmented Generation (CAG) to enhance LLM efficiency and response speed using caching strategies.                                           | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ashishpatel26/LLM-Finetuning/blob/main/23_CAG_Optimizing_LLMs_with_cache_augmented_generation.ipynb)               |
 
-## Contributing 🤝
 
-Contributions are welcome! If you'd like to contribute to this project, feel free to open an issue or submit a pull request.
-
-## License 📝
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
-Created with ❤️ by [Ashish](https://github.com/ashishpatel26/)
