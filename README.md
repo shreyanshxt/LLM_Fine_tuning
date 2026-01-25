@@ -64,9 +64,6 @@ Welcome to the PEFT (Pretraining-Evaluation Fine-Tuning) project repository! Thi
 
 To provide **practical, scalable, and production-relevant notebooks** that demonstrate how to fine-tune, optimize, evaluate, and deploy modern Large Language Models efficiently.
 
----
-
-⭐ If you find this repository useful, consider starring it!
-ab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ashishpatel26/LLM-Finetuning/blob/main/23_CAG_Optimizing_LLMs_with_cache_augmented_generation.ipynb)               |
+        |
 
 
