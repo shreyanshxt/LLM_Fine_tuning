@@ -6,32 +6,67 @@ Welcome to the PEFT (Pretraining-Evaluation Fine-Tuning) project repository! Thi
 
 ![](https://huggingface.co/datasets/trl-internal-testing/example-images/resolve/main/images/trl_overview.png)
 
-## Fine Tuning Notebook Table 📑
+---
 
-| Notebook Title                                                                                               | Description                                                                                                                                                                                   | Colab Badge                                                                                                                                                                                                                         |
-| ------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **1. Efficiently Train Large Language Models with LoRA and Hugging Face**                              | Details and code for efficient training of large language models using LoRA and Hugging Face.                                                                                                 | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ashishpatel26/LLM-Finetuning/blob/main/1.Efficiently_train_Large_Language_Models_with_LoRA_and_Hugging_Face.ipynb) |
-| **2. Fine-Tune Your Own Llama 2 Model in a Colab Notebook**                                            | Guide to fine-tuning your Llama 2 model using Colab.                                                                                                                                          | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ashishpatel26/LLM-Finetuning/blob/main/2.Fine_Tune_Your_Own_Llama_2_Model_in_a_Colab_Notebook.ipynb)               |
-| **3. Guanaco Chatbot Demo with LLaMA-7B Model**                                                        | Showcase of a chatbot demo powered by LLaMA-7B model.                                                                                                                                         | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ashishpatel26/LLM-Finetuning/blob/main/3.Guanaco%20Chatbot%20Demo%20with%20LLaMA-7B%20Model.ipynb)                 |
-| **4. PEFT Finetune-Bloom-560m-tagger**                                                                 | Project details for PEFT Finetune-Bloom-560m-tagger.                                                                                                                                          | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ashishpatel26/LLM-Finetuning/blob/main/4.PEFT%20Finetune-Bloom-560m-tagger.ipynb#scrollTo=MDqJWba-tpnv)            |
-| **5. Finetune_Meta_OPT-6-1b_Model_bnb_peft**                                                           | Details and guide for finetuning the Meta OPT-6-1b Model using PEFT and Bloom-560m-tagger.                                                                                                    | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ashishpatel26/LLM-Finetuning/blob/main/5.Finetune_Meta_OPT-6-1b_Model_bnb_peft.ipynb)                              |
-| **6.Finetune Falcon-7b with BNB Self Supervised Training**                                             | Guide for finetuning Falcon-7b using BNB self-supervised training.                                                                                                                            | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ashishpatel26/LLM-Finetuning/blob/main/6.Finetune%20Falcon-7b%20with%20BNB%20Self%20Supervised%20Training.ipynb)   |
-| **7.FineTune LLaMa2 with QLoRa**                                                                       | Guide to fine-tune the Llama 2 7B pre-trained model using the PEFT library and QLoRa method                                                                                                   | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ashishpatel26/LLM-Finetuning/blob/main/7.FineTune_LLAMA2_with_QLORA.ipynb)                                         |
-| **8.Stable_Vicuna13B_8bit_in_Colab**                                                                   | Guide of Fine Tuning Vecuna 13B_8bit                                                                                                                                                          | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ashishpatel26/LLM-Finetuning/blob/main/8.Stable_Vicuna13B_8bit_in_Colab.ipynb)                                     |
-| **9. GPT-Neo-X-20B-bnb2bit_training**                                                                  | Guide How to train the GPT-NeoX-20B model using bfloat16 precision                                                                                                                            | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ashishpatel26/LLM-Finetuning/blob/main/9.GPT-neo-x-20B-bnb_4bit_training.ipynb)                                    |
-| **10. MPT-Instruct-30B Model Training**                                                                | MPT-Instruct-30B is a large language model from MosaicML that is trained on a dataset of short-form instructions. It can be used to follow instructions, answer questions, and generate text. | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ashishpatel26/LLM-Finetuning/blob/main/10.MPT_Instruct_30B.ipynb)                                                  |
-| **11.RLHF_Training_for_CustomDataset_for_AnyModel**                                                    | How train a Model with RLHF training on any LLM model with custom dataset                                                                                                                     | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ashishpatel26/LLM-Finetuning/blob/main/11_RLHF_Training_for_CustomDataset_for_AnyModel.ipynb)                      |
-| **12.Fine_tuning_Microsoft_Phi_1_5b_on_custom_dataset(dialogstudio)**                                  | How train a model with trl SFT Training on Microsoft Phi 1.5 with custom                                                                                                                      | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ashishpatel26/LLM-Finetuning/blob/main/12_Fine_tuning_Microsoft_Phi_1_5b_on_custom_dataset(dialogstudio).ipynb)    |
-| **13. Finetuning OpenAI GPT3.5 Turbo**                                                                 | How to finetune GPT 3.5 on your own data                                                                                                                                                      | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ashishpatel26/LLM-Finetuning/blob/main/13.Fine_tuning_OpenAI_GPT_3_5_turbo.ipynb)                                  |
-| **14. Finetuning Mistral-7b FineTuning Model using Autotrain-advanced**                                | How to finetune Mistral-7b using autotrained-advanced                                                                                                                                         | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ashishpatel26/LLM-Finetuning/blob/main/14.Finetuning_Mistral_7b_Using_AutoTrain.ipynb)                             |
-| **15. RAG LangChain Tutorial**                                                                         | How to Use RAG using LangChain                                                                                                                                                                | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ashishpatel26/LLM-Finetuning/blob/main/15.RAG_LangChain.ipynb)                                                     |
-| **16. Knowledge Graph LLM with LangChain PDF Question Answering**                                      | How to build knowledge graph with pdf question answering                                                                                                                                      | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ashishpatel26/LLM-Finetuning/blob/main/16.Neo4j_and_LangChain_for_Enhanced_Question_Answering.ipynb)               |
-| **17. Text to Knolwedge Graph with OpenAI Function with Neo4j and Langchain Agent Question Answering** | How to build knowledge graph from text or Pdf Document with pdf question Answering                                                                                                            | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ashishpatel26/LLM-Finetuning/blob/main/17.OpenAI_Constructing_Graph_for_Questio_Answer.ipynb)                      |
-| **18. Convert the Document to Knowledgegraph using Langchain and Openai**                              | This notebook is help you to understand how easiest way you can convert your any documents into Knowledgegraph for your next RAG based Application                                            | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ashishpatel26/LLM-Finetuning/blob/main/18.Convert_Document_to_Knowledge_Graph_Langchain_Openai.ipynb)              |
-| **19. How to train a 1-bit Model with LLMs?**                                                          | This notebook is help you to train a model with 1-bit and 2-bit quantization method using hqq framework                                                                                       | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ashishpatel26/LLM-Finetuning/blob/main/19.HQQ_1bit_ipynb.ipynb)                                                    |
-| **20.Alpaca_+_Gemma2_9b_Unsloth_2x_faster_finetuning**                                                 | This notebook is help you to train a model with gemma2 9b                                                                                                                                     | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ashishpatel26/LLM-Finetuning/blob/main/20.Alpaca_%2B_Gemma2_9b_Unsloth_2x_faster_finetuning.ipynb)                 |
-| **21.RAG Pipeline Evaluation Using MLFLOW Best Industry Practice**                                     | This notebook provides a comprehensive guide to evaluating the 21 RAG (Retrieve-then-Answer Generation) pipeline using MLFLOW, adhering to best industry practices.                           | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ashishpatel26/LLM-Finetuning/blob/main/21_RAG_Pipeline_Evaluation_Using_MLFLOW_Best_Industry_Practise.ipynb)       |
-| **22. Evaluate a Hugging Face LLM with `mlflow.evaluate()`**                                         | This notebook provides a comprehensive guide on evaluating a Hugging Face Language Learning Model (LLM) using mlflow_evaluate.                                                                | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ashishpatel26/LLM-Finetuning/blob/main/22.Evaluate_a_Hugging_Face_LLM_with_mlflow_evaluate.ipynb)                  |
-| **23. Optimizing LLMs with Cache-Augmented-Generation**                                                | Explores techniques from the research paper Cache-Augmented Generation (CAG) to enhance LLM efficiency and response speed using caching strategies.                                           | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ashishpatel26/LLM-Finetuning/blob/main/23_CAG_Optimizing_LLMs_with_cache_augmented_generation.ipynb)               |
+## 📑 Fine-Tuning Notebook Table
+
+| Notebook Title | Description |
+|--------------|-------------|
+| **1. Efficiently Train Large Language Models with LoRA and Hugging Face** | Efficient training of LLMs using LoRA and Hugging Face Transformers. |
+| **2. Fine-Tune Your Own Llama 2 Model** | Step-by-step guide to fine-tuning a LLaMA 2 model. |
+| **3. Guanaco Chatbot Demo with LLaMA-7B Model** | Demonstration of a chatbot built using the LLaMA-7B Guanaco model. |
+| **4. PEFT Finetune Bloom-560m Tagger** | PEFT-based fine-tuning of Bloom-560M for tagging tasks. |
+| **5. Finetune Meta OPT-6.1B Model using PEFT** | Fine-tuning Meta OPT-6.1B with PEFT and low-bit optimization. |
+| **6. Finetune Falcon-7B with BNB Self-Supervised Training** | Fine-tuning Falcon-7B using bitsandbytes and self-supervised techniques. |
+| **7. Fine-Tune LLaMA 2 with QLoRA** | Memory-efficient fine-tuning of LLaMA 2 using QLoRA. |
+| **8. Stable Vicuna 13B (8-bit) Fine-Tuning** | Fine-tuning Vicuna 13B using 8-bit quantization. |
+| **9. GPT-NeoX-20B Low-Bit Training** | Training GPT-NeoX-20B with low-bit precision for efficiency. |
+| **10. MPT-Instruct-30B Model Training** | Fine-tuning MPT-Instruct-30B for instruction-following tasks. |
+| **11. RLHF Training for Custom Dataset** | Reinforcement Learning with Human Feedback for any LLM on custom data. |
+| **12. Fine-Tuning Microsoft Phi-1.5B** | Supervised fine-tuning of Phi-1.5B on a custom dialog dataset. |
+| **13. Fine-Tuning GPT-3.5 Turbo** | End-to-end workflow for fine-tuning GPT-3.5 on custom datasets. |
+| **14. Fine-Tuning Mistral-7B using AutoTrain** | Automated fine-tuning of Mistral-7B using AutoTrain Advanced. |
+| **15. RAG with LangChain** | Introduction to Retrieval-Augmented Generation using LangChain. |
+| **16. Knowledge Graph LLM with PDF Question Answering** | Building a knowledge graph from PDFs for enhanced QA. |
+| **17. Text-to-Knowledge Graph with LLM Agents** | Constructing knowledge graphs from text using LLM agents. |
+| **18. Document to Knowledge Graph Conversion** | Converting documents into structured knowledge graphs for RAG. |
+| **19. Training 1-bit and 2-bit LLMs** | Extreme quantization techniques using HQQ framework. |
+| **20. Alpaca + Gemma2 9B Fine-Tuning (Unsloth)** | High-speed fine-tuning of Gemma2 9B using Unsloth. |
+| **21. RAG Pipeline Evaluation using MLflow** | Industry-grade evaluation of RAG pipelines with MLflow. |
+| **22. Evaluating Hugging Face LLMs with MLflow** | Comprehensive evaluation of LLMs using `mlflow.evaluate()`. |
+| **23. Cache-Augmented Generation (CAG)** | Optimizing LLM efficiency using cache-augmented generation techniques. |
+
+---
+
+## 🧠 What This Repository Covers
+
+- Parameter-Efficient Fine-Tuning (PEFT)
+- LoRA, QLoRA, and Low-Rank Adaptation
+- 8-bit, 4-bit, 2-bit, and 1-bit quantization
+- RLHF and SFT training pipelines
+- RAG systems and Knowledge Graph integration
+- LLM evaluation using MLflow
+- Large-scale model optimization techniques
+
+---
+
+## 🎯 Target Audience
+
+- LLM researchers
+- Applied ML engineers
+- RAG system developers
+- Students and internship candidates
+- Anyone working with large-scale language models
+
+---
+
+## 🚀 Goal
+
+To provide **practical, scalable, and production-relevant notebooks** that demonstrate how to fine-tune, optimize, evaluate, and deploy modern Large Language Models efficiently.
+
+---
+
+⭐ If you find this repository useful, consider starring it!
+ab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ashishpatel26/LLM-Finetuning/blob/main/23_CAG_Optimizing_LLMs_with_cache_augmented_generation.ipynb)               |
 
 
